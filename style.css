@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --p: rgb(65, 0, 117);
+    --s: rgb(82, 24, 97);
+    --t: rgb(255, 255, 255);
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    text-shadow: 0.2rem 0rem 0rem var(--t);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 9rem);
+}
+
+main div {
+    width: 85%;
+    padding: 5%;
+}
+
+main div ol {
+    list-style-type: upper-roman;
+}
+
+footer {
+    height: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--p);
+    color: var(--t);
+    border-bottom: 0.5rem solid var(--p);
+    border-radius: 5%;
+}
