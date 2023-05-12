@@ -6,19 +6,39 @@
 }
 
 :root {
-    --p: rgb(65, 0, 117);
+    --p: rgb(104, 37, 143);
     --s: rgb(82, 24, 97);
     --t: rgb(255, 255, 255);
 }
 
+header{
+    background-color: var(--p);
+    background-image: url(https://st2.depositphotos.com/2850905/50769/v/600/depositphotos_507696656-stock-illustration-web-development-coding-and-programming.jpg);
+    background-position: center;
+
+}
 header div{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 5rem;
-    text-shadow: 0.2rem 0rem 0rem var(--t);
+    color: var(--t);
 }
 
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: var(--p);
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+main nav{
+    background-color: var(--p);
+    justify-content: center;
+}
 main {
     display: flex;
     justify-content: center;
